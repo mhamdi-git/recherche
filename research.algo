@@ -1,0 +1,23 @@
+ALGORITHM research
+VAR
+    ch : STRING;
+    nb_total : INTEGER:=0;
+    nb_voy : INTEGER:=0,
+    nb_mot:INTEGER:=0;
+
+BEGIN
+    read (ch);
+    FOR i FROM 0 TO i < ch[i].length() STEP i++  DO
+       SWITCH (c) DO
+           case 1 : IF (ch[i]=[a,e,i,o,u,y]) THEN
+              retrun nb_voy:= nb_voy+1;
+           END_IF
+           case 2 : IF (ch[i]='') THEN
+               retrun nb_mot:= nb_mot+1;
+           END_IF
+            case 3 : IF (ch[i]= '.') THEN
+               retrun nb_total:= length ch[i];
+           END_IF
+       END_SWITCH
+    END_FOR
+END
